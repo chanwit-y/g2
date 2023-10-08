@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte'
-	import { themes } from './themes'
+	import { themes } from '../themes'
 
 	let current_theme = ''
 
