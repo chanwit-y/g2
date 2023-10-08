@@ -47,9 +47,15 @@ module.exports = {
 			    '60%': { transform: 'rotate(0.0deg)' },
 			    '100%': { transform: 'rotate(0.0deg)' },
 			  },
+			  zoom: {
+			    '0%': { transform: 'scale(1.05)' },
+			    '10%': { transform: 'scale(1)' },
+			    '100%': { transform: 'scale(1.2)' },
+			  },
 			},
 			animation: {
 				'waving-hand': 'wave 2s linear infinite',
+				'zoom-box': 'zoom 2s  ease-in-out alternate',
 			      },
 		      },
 	}
